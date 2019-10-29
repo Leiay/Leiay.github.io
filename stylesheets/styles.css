@@ -3,7 +3,7 @@ body {
   padding:50px;
   font:14px 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, .87);
-  font-weight:400;
+  font-weight: 400;
   line-height: 22px;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 ::selection {
-    background: #ffb7b7; /* WebKit/Blink Browsers */
+    background: #f5d8c8; /* WebKit/Blink Browsers */
   }
 
 
@@ -52,11 +52,9 @@ a:hover small {
 }
 
 .wrapper {
-  width:770px;
+  width:1000px; /*this can change the */
   margin:0 auto;
 }
-
-
 
 img {
   max-width:100%;
@@ -64,7 +62,7 @@ img {
 
 header {
   font-weight:400;
-  width:220px;
+  width:220px;  /*this is the left part*/
   float:left;
   position:fixed;
 }
@@ -73,7 +71,6 @@ b, par {
   color:rgba(0, 0, 0, .83);
   font-weight:700;
   padding-right: 3px;
-
 }
 
 b {
@@ -81,13 +78,13 @@ b {
 }
 
 section {
-  width:520px;
+  width:720px;   /*this is the right part*/
   float:right;
   padding-bottom:50px;
 }
 
 footer {
-  width:220px;
+  width:220px;   /*this is also the left part*/
   float:left;
   position:fixed;
   bottom:10px;
